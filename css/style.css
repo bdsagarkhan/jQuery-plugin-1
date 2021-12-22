@@ -1,0 +1,22 @@
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
+#text1 {
+	margin: 3.0em 0.0em;
+	overflow: hidden;
+	/*font: normal normal normal 2.0em/1.5 'Open Sans Light', sans-serif;*/
+	color: #ffffff;
+	background-color: #3fafee;
+}
+.project_overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0 0 0 / 50%);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.project_item:hover .project_overlay {
+    opacity: 1;
+}
